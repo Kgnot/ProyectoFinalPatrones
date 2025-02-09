@@ -1,0 +1,10 @@
+package AbstractFactory;
+
+import AbstractFactory.Salida;
+
+class SalidaPantalla extends Salida {
+    @Override
+    public void mostrarMensaje(String mensaje) {
+        System.out.println(mensaje);
+    }
+}
