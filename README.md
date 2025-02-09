@@ -1,4 +1,6 @@
-#Problemas Escogidos: 
+# Problemas Escogidos: 
 
 
-## Patrones
+## Patrones: 
+
+
