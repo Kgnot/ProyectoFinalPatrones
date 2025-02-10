@@ -9,6 +9,8 @@ Mercado libre al ser una plataforma de comercio online (e-commerce) tiene que to
 Por dicha razón la solución propuesta a nivel de código viene siendo la implementación del patrón de diseño Factory Method el cúal nos hará , mediante la delegación de creación de clases, crear qué tipo de entrega quiere el usuario en proceso de ejecución, de esta forma solucionando el problema de las entregas.
 
 ## Builder
+ Los vendedores necesitan crear publicaciones para sus productos, pero cada publicación puede tener múltiples configuraciones y atributos opcionales, como título, descripción, precio, categoría, imágenes y detalles adicionales. Manejar todas estas combinaciones con subclases resultaría en una jerarquía compleja y difícil de mantener.
+Para resolver este problema, implementaremos el patrón Builder, permitiendo la creación paso a paso de publicaciones personalizadas sin necesidad de múltiples constructores o subclases innecesarias.
 
 ## Prototype
 
