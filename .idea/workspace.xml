@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09604bc-b17f-43f4-b563-93600c3f47fc" name="Changes" comment="Inicio">
+    <list default="true" id="f09604bc-b17f-43f4-b563-93600c3f47fc" name="Changes" comment="Fin de Factory_method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/io/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/io/EntradaTeclado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/io/Salida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/io/SalidaPantalla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/Envio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/EnvioClasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/EnvioExpress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/MetodoFabricaExpress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/RetiroSucursal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/utils/MetodoFabircaClasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/utils/MetodoFabricaEnvio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/utils/MetodoFabricaSucursal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_02_2025_7_02_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_02_2025_7_02_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pd/fn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pd/fn/Main.java" afterDir="false" />
     </list>
@@ -12,6 +25,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -50,13 +71,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2sh0YSMMPa5myuGVf5tDftMs5tv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -70,6 +94,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,6 +107,8 @@
       <option name="presentableId" value="Default" />
       <updated>1738892548759</updated>
       <workItem from="1738892550157" duration="383000" />
+      <workItem from="1739053942567" duration="856000" />
+      <workItem from="1739130910581" duration="6802000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <option name="closed" value="true" />
@@ -118,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio" />
+    <MESSAGE value="Fin de Factory_method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin de Factory_method" />
   </component>
 </project>
