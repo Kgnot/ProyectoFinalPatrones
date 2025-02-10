@@ -22,6 +22,11 @@ Cada compra genera un número de orden único y debe ser registrada en un sistem
 # Patrones Estructurales 
 
 ## Adapter
+No se porque no se poneeeeE!!!! 
+Existen diferentes tipos de publicaciones de productos (Ejemplo: productos nuevos, usados, subastas). Cada publicación puede tener distintos métodos de pago (Ejemplo: tarjeta de crédito, PayPal, pago contra entrega).
+El problema es que si combinamos cada tipo de publicación con cada método de pago directamente, el código se volvería muy difícil de entender. Por lo tanto aplicamos el patrón Bridge, separando la abstracción (Publicación) de su implementación (Método de Pago), permitiendo mayor flexibilidad.
+
+
 
 ## Bridge
 En una plataforma como Mercado Libre, existen diferentes tipos de publicaciones de productos (Ejemplo: productos nuevos, usados, subastas). Cada publicación puede tener distintos métodos de pago (Ejemplo: tarjeta de crédito, PayPal, pago contra entrega).
