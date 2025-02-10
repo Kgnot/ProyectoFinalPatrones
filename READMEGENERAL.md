@@ -56,6 +56,7 @@ Los vendedores pueden ofrecer descuentos (Descuento porcentual, descuento fijo)e
 ## Estrategia
 
 ## Cadena de responsabilidades 
+Cuando un usuario solicita un reembolso, la solicitud debe pasar por diferentes niveles de aprobación antes de ser aceptada o rechazada. Dependiendo del monto y las condiciones del reembolso, la solicitud puede ser aprobada automáticamente, requerir revisión de un agente de servicio al cliente o incluso necesitar autorización del gerente.
 
 ## Comando
 
