@@ -36,6 +36,7 @@ Para resolver esto, usaremos el patrón Decorator, que nos permite agregar funci
 ## Facade
 
 ## Flyweight
+Los usuarios pueden dejar reseñas sobre los productos. Sin embargo, muchas reseñas contienen frases repetitivas como "Buena calidad", "Llegó rápido", "Recomiendo al vendedor", etc. En lugar de almacenar una nueva cadena de texto para cada reseña similar, usaremos el patrón Flyweight para compartir las frases repetidas y reducir el consumo de memoria.
 
 ## Proxy
 # Patrones de comportamiento 
