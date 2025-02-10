@@ -24,10 +24,14 @@ Cada compra genera un número de orden único y debe ser registrada en un sistem
 ## Adapter
 
 ## Bridge
+En una plataforma como Mercado Libre, existen diferentes tipos de publicaciones de productos (Ejemplo: productos nuevos, usados, subastas). Cada publicación puede tener distintos métodos de pago (Ejemplo: tarjeta de crédito, PayPal, pago contra entrega).
+El problema es que si combinamos cada tipo de publicación con cada método de pago directamente, el código se volvería muy rígido y difícil de mantener. Aquí es donde aplicamos el patrón Bridge, separando la abstracción (Publicación) de su implementación (Método de Pago), permitiendo mayor flexibilidad.	
 
 ## Composite
 
 ## Decorator
+Los vendedores pueden ofrecer envíos de sus productos con diferentes opciones adicionales, como envoltura de regalo, seguro de envío y entrega express. Cada una de estas opciones incrementa el costo del envío, y los clientes pueden combinarlas según sus necesidades.
+Para resolver esto, usaremos el patrón Decorator, que nos permite agregar funcionalidades (envoltura, seguro, express) de forma dinámica sin modificar la estructura base del cálculo de envíos.
 
 ## Facade
 
