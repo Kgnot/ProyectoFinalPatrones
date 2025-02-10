@@ -61,6 +61,8 @@ Cuando un usuario solicita un reembolso, la solicitud debe pasar por diferentes 
 ## Comando
 
 ## Iterator 
+Los usuarios pueden agregar productos a su lista de favoritos. Sin embargo, recorrer esta lista manualmente puede ser ineficiente si hay muchos productos. Queremos permitir a los usuarios agregar productos y luego recorrer su lista de favoritos de manera ordenada, sin exponer la estructura interna de la lista.
+Para solucionar esto, aplicaremos el patrón Iterator, que nos permitirá iterar sobre la lista de favoritos sin revelar su implementación interna.
 
 ## Mediador
 
