@@ -17,6 +17,7 @@ Dentro del contexto de Mercado Libre podemos encontrar opciones la cual permiten
 	Esto ayudaría a no tener que repetir el código si no solo crear por medio de una instancia prototípica, así, copiando un archivo que nosotros deseemos, ya sea solo para cambiar algunas configuraciones extra y no tener que hacerlo desde cero
 
 ## Singleton
+Cada compra genera un número de orden único y debe ser registrada en un sistema de seguimiento. Para evitar que múltiples instancias del sistema asignen números de orden duplicados, necesitamos garantizar que solo exista un único gestor de órdenes en toda la aplicación.
 
 # Patrones Estructurales 
 
