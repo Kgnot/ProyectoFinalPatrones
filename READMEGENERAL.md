@@ -13,8 +13,11 @@ Por dicha razón la solución propuesta a nivel de código viene siendo la imple
 Para resolver este problema, implementaremos el patrón Builder, permitiendo la creación paso a paso de publicaciones personalizadas sin necesidad de múltiples constructores o subclases innecesarias.
 
 ## Prototype
+Dentro del contexto de Mercado Libre podemos encontrar opciones la cual permiten duplicar o replicar ya sea una publicación, un comentario, etc. Realmente hay múltiples cosas que podemos clonar, sin embargo nos centraremos en la solución frente a publicaciones y comentarios.
+	Esto ayudaría a no tener que repetir el código si no solo crear por medio de una instancia prototípica, así, copiando un archivo que nosotros deseemos, ya sea solo para cambiar algunas configuraciones extra y no tener que hacerlo desde cero
 
 ## Singleton
+
 # Patrones Estructurales 
 
 ## Adapter
