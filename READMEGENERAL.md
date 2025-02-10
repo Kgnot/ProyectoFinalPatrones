@@ -45,8 +45,8 @@ Los usuarios pueden dejar reseñas sobre los productos. Sin embargo, muchas rese
 # Patrones de comportamiento 
 
 ## Plantilla
- Se permite a los vendedores ofrecer distintos tipos de descuentos promocionales (descuento por porcentaje, descuento por monto fijo y descuento por compra en cantidad)en sus productos. Sin embargo, cada tipo de descuento sigue reglas específicas.
-El sistema debe calcular el precio final de un producto según el tipo de descuento seleccionado, asegurando que la estructura del cálculo sea flexible para agregar nuevos descuentos en el futuro.
+Los vendedores pueden ofrecer descuentos (Descuento porcentual, descuento fijo)en función de la cantidad comprada. Existen diferentes estrategias de descuento.
+	Queremos estandarizar la forma en que se calcula el precio final aplicando el patrón Template Method.
 
 ## Estrategia
 
