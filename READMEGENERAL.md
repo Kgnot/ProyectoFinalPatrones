@@ -62,14 +62,17 @@ En la industria es normal usar diferentes tipos de bases de datos, ya sea la uti
 Cuando un usuario solicita un reembolso, la solicitud debe pasar por diferentes niveles de aprobación antes de ser aceptada o rechazada. Dependiendo del monto y las condiciones del reembolso, la solicitud puede ser aprobada automáticamente, requerir revisión de un agente de servicio al cliente o incluso necesitar autorización del gerente.
 
 ## Comando
+El problema viene siendo cuando necesitamos diferentes peticiones al mismo objeto que sería la tienda, entonces podemos nosotros marcar favoritos, agregar a carrito o comprar, cada uno es un comando diferente. Por esta razón usamos el patrón Command.
 
 ## Iterator 
 Los usuarios pueden agregar productos a su lista de favoritos. Sin embargo, recorrer esta lista manualmente puede ser ineficiente si hay muchos productos. Queremos permitir a los usuarios agregar productos y luego recorrer su lista de favoritos de manera ordenada, sin exponer la estructura interna de la lista.
 Para solucionar esto, aplicaremos el patrón Iterator, que nos permitirá iterar sobre la lista de favoritos sin revelar su implementación interna.
 
 ## Mediador
+Como planteamiento del problema vamos a tomar en cuenta en que el comprador y el vendedor deben de comunicarse, para hallar esa comunicación de forma asertiva, se usa el patrón mediator que nos dirá cómo estos dos van a interactuar
 
 ## Memento
 Los vendedores ajustan sus precios constantemente según la oferta y la demanda. Sin embargo, algunos cambios pueden ser erróneos o afectar las ventas, por lo que necesitan una forma de restaurar el precio anterior rápidamente.Usamos el patrón Memento para guardar el precio anterior del producto antes de cada cambio. Así, si el vendedor se equivoca o desea revertir el ajuste, puede restaurar el precio original sin necesidad de recordarlo manualmente.
 
 ## Observer
+El problema que vamos a solucionar con el patrón observer, es el de las notificaciones cuando un usuario está “suscrito” o en el caso de mercado libre tiene activado cuando un vendedor hace una nueva publicación de un producto.
