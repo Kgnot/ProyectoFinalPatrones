@@ -13,8 +13,6 @@ public class Elemento implements ElementoCatalogo{
     private File imagen;
     private User usuario;
     private  float valor;
-
-
     @Override
     public void mostrar() {
         String json = String.format(
@@ -43,13 +41,11 @@ public class Elemento implements ElementoCatalogo{
         System.out.println("No se puede eañadir elementos a una hoja");
         return false;
     }
-
     @Override
     @Deprecated
     public boolean delete(ElementoCatalogo cat) {
         return false;
     }
-
     @Override
     @Deprecated
     public ElementoCatalogo obtenerHijo(int index) {

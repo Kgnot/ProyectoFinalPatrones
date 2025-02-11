@@ -12,8 +12,11 @@ public class Main {
         User user = new User("Jaime", "Jaime@correo.com");
         //Crearemos categorias:
         Categoria tecnologia = new Categoria();
+        tecnologia.setNombre("Tecnologia");
         Categoria celulares = new Categoria();
+        celulares.setNombre("Celulares");
         Categoria partes = new Categoria();
+        partes.setNombre("Partes");
         // Ahora los productos individuales
         // creanos el elemento "celularSamsung"
         Elemento celularSamsung = new Elemento();
