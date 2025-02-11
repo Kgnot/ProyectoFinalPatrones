@@ -42,6 +42,7 @@ Los vendedores pueden ofrecer envíos de sus productos con diferentes opciones a
 Para resolver esto, usaremos el patrón Decorator, que nos permite agregar funcionalidades (envoltura, seguro, express) de forma dinámica sin modificar la estructura base del cálculo de envíos.
 
 ## Facade
+Dentro del contexto planteado sabemos que a la hora de hacer algún pedido se deben hacer varias cosas; validar al usuario, encontrar el producto, el tipo de envío, de pago y la factura electrónica. 
 
 ## Flyweight
 Los usuarios pueden dejar reseñas sobre los productos. Sin embargo, muchas reseñas contienen frases repetitivas como "Buena calidad", "Llegó rápido", "Recomiendo al vendedor", etc. En lugar de almacenar una nueva cadena de texto para cada reseña similar, usaremos el patrón Flyweight para compartir las frases repetidas y reducir el consumo de memoria.
