@@ -67,5 +67,6 @@ Para solucionar esto, aplicaremos el patrón Iterator, que nos permitirá iterar
 ## Mediador
 
 ## Memento
+Los vendedores pueden modificar el precio de sus productos según la demanda y la competencia. Sin embargo, a veces necesitan recuperar un precio anterior debido a errores o estrategias de venta.Usaremos Memento para almacenar versiones previas del precio del producto. Cada vez que el vendedor actualice el precio, se guardará la versión anterior, permitiendo restaurarla si lo desea.
 
 ## Observer
