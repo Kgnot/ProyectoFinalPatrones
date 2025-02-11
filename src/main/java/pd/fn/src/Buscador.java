@@ -17,6 +17,7 @@ public class Buscador {
 
     public void buscar(String search)
     {
+        // si no encontramos la estrategia solo devolveremos
         if(estrategia == null)
             return;
         String res = estrategia.buscar(search);
