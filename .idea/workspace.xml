@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09604bc-b17f-43f4-b563-93600c3f47fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f09604bc-b17f-43f4-b563-93600c3f47fc" name="Changes" comment="Parte del Facade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pd/fn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pd/fn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pd/fn/src/Prueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pd/fn/src/service/FacturaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/service/FacturaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pd/fn/src/service/PagoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/service/PagoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pd/fn/src/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pd/fn/src/service/UsuarioService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +70,22 @@
       <updated>1738892548759</updated>
       <workItem from="1738892550157" duration="32000" />
     </task>
+    <task id="LOCAL-00001" summary="Parte del Facade">
+      <option name="closed" value="true" />
+      <created>1739236819215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739236819215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Parte del Facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parte del Facade" />
   </component>
 </project>
