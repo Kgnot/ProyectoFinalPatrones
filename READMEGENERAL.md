@@ -56,6 +56,7 @@ Los vendedores pueden ofrecer descuentos (Descuento porcentual, descuento fijo)e
 	Queremos estandarizar la forma en que se calcula el precio final aplicando el patrón Template Method.
 
 ## Estrategia
+En la industria es normal usar diferentes tipos de bases de datos, ya sea la utilización de datos en una base NoSQL, totalmente relacional SQL, usar caché como Redis o simplemente llamarla desde una API con su propia base de datos. Para solucionar este problema planteamos el patrón estrategia.
 
 ## Cadena de responsabilidades 
 Cuando un usuario solicita un reembolso, la solicitud debe pasar por diferentes niveles de aprobación antes de ser aceptada o rechazada. Dependiendo del monto y las condiciones del reembolso, la solicitud puede ser aprobada automáticamente, requerir revisión de un agente de servicio al cliente o incluso necesitar autorización del gerente.
