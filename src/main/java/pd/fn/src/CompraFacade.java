@@ -5,7 +5,6 @@ import pd.fn.io.SalidaPantalla;
 import pd.fn.src.service.*;
 
 public class CompraFacade {
-
     // un apartado de outout
     private Salida out;
     private UsuarioService usuarioService;
@@ -13,7 +12,6 @@ public class CompraFacade {
     private EnvioService envioService;
     private PagoService pagoService;
     private FacturaService facturaService;
-
     public CompraFacade() {
         this.usuarioService = new UsuarioService();
         this.productoService = new ProductoService();
@@ -22,7 +20,6 @@ public class CompraFacade {
         this.facturaService = new FacturaService();
         this.out = new SalidaPantalla();
     }
-
     public void realizarCompra(String email, String producto, String direccion, double monto) {
         if (usuarioService.findByUsuario(email) != null) {
             productoService.findProductById(producto);

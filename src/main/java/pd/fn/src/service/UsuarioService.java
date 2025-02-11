@@ -10,7 +10,7 @@ public class UsuarioService {
     public Usuario findByUsuario(String email)
     {
         // aqui buscariamos el usuario
-        return new Usuario("prueba","prueba@correo.com");
+        return new Usuario("prueba",email);
     }
 
 }

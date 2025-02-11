@@ -4,7 +4,7 @@ public class EnvioService {
 
     // como venimos haciendo:
 
-    public String calcularEnvio(String direccion) {
-         return "Envio calculaod para" + " "+ direccion;
+    public void calcularEnvio(String direccion) {
+        System.out.println( "Envio calculaod para" + " "+ direccion);
     }
 }
