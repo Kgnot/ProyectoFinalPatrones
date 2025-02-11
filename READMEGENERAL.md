@@ -71,4 +71,4 @@ Para solucionar esto, aplicaremos el patrón Iterator, que nos permitirá iterar
 ## Memento
 Los vendedores ajustan sus precios constantemente según la oferta y la demanda. Sin embargo, algunos cambios pueden ser erróneos o afectar las ventas, por lo que necesitan una forma de restaurar el precio anterior rápidamente.Usamos el patrón Memento para guardar el precio anterior del producto antes de cada cambio. Así, si el vendedor se equivoca o desea revertir el ajuste, puede restaurar el precio original sin necesidad de recordarlo manualmente.
 
-## Observer
+## Observer
