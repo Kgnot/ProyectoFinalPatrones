@@ -48,6 +48,7 @@ Dentro del contexto planteado sabemos que a la hora de hacer algún pedido se de
 Los usuarios pueden dejar reseñas sobre los productos. Sin embargo, muchas reseñas contienen frases repetitivas como "Buena calidad", "Llegó rápido", "Recomiendo al vendedor", etc. En lugar de almacenar una nueva cadena de texto para cada reseña similar, usaremos el patrón Flyweight para compartir las frases repetidas y reducir el consumo de memoria.
 
 ## Proxy
+Proxy es un patrón de diseño que nos ayuda a crear un sustituto a un objeto grande. De esta forma no es necesario cargar todo el objeto para solo ser mostrado, si no solo cuando este es requerido
 # Patrones de comportamiento 
 
 ## Plantilla
